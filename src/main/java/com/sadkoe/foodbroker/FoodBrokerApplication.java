@@ -1,4 +1,4 @@
-package com.sadkoe.reservation;
+package com.sadkoe.foodbroker;
 
 import java.util.Arrays;
 
@@ -9,10 +9,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class ReservationApplication {
+public class FoodBrokerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReservationApplication.class, args);
+		SpringApplication.run(FoodBrokerApplication.class, args);
 	}
 
 	@Bean

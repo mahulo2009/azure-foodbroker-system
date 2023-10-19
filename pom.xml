@@ -8,10 +8,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sadkoe</groupId>
-	<artifactId>reservation</artifactId>
+	<artifactId>foodbroker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>reservation</name>
-	<description>Reservation system for sports facility (Spring Boot)</description>
+	<name>foodbroker</name>
+	<description>Food broker system(Spring Boot)</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -53,10 +53,10 @@
 		        <version>2.12.0</version>
 		        <configuration>
 		            <schemaVersion>v2</schemaVersion>
-		            <resourceGroup>rq-reservation-miraflores</resourceGroup>
-		            <appName>reservation-miraflores-app</appName>
+		            <resourceGroup>rq-foodbroker-uk</resourceGroup>
+		            <appName>foodbroker-app</appName>
 		            <pricingTier>P1v2</pricingTier>
-		            <region>centralus</region>
+		            <region>southuk</region>
 		            <runtime>
 		                <os>Linux</os>
 		                <javaVersion>Java 17</javaVersion>
